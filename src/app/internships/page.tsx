@@ -126,7 +126,7 @@ export default function InternshipsPage() {
           </motion.section>
 
           <motion.section variants={itemVariants} className="mb-16">
-  <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Kautilya's MoUs with TTD Degree Colleges for Internships</h2>
+  <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Kautilya&apos;s MoUs with TTD Degree Colleges for Internships</h2>
   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
     {[1, 2, 3, 4, 5, 6].map((item, index) => (
       <div
