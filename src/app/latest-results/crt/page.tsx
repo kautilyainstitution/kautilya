@@ -69,23 +69,26 @@ export default function LatestCatResultsPage() {
                 className="object-fill"
                 priority
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/30 flex items-center">
+              {/* <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/30 flex items-center">
                 <div className="px-6 md:px-12 max-w-3xl">
                   <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
                     Kautilya has been the most preferred partner for CRT at SVUCE, SPMVV, MBU, etc for over 
-                    a decade
+                    a decade <br/>
+                    See the testimonials of the highest no of successful placements through our CRT Training
                   </h1>
                   <p className="text-white/90 text-lg md:text-xl">
-                    See the testimonials of the highest no of successful placements through our CRT Training
+                    
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </motion.section>
 
           {/*Gallery */}
           <motion.section variants={itemVariants} className="mb-16">
-  <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Gallery</h2>
+  <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Kautilya has been the most preferred partner for CRT at SVUCE, SPMVV, MBU, etc for over 
+                    a decade <br/>
+                    See the testimonials of the highest no of successful placements through our CRT Training</h2>
   <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
     {[1, 2, 3, 4].map((item,index) => (
       <motion.div

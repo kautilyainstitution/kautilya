@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { GraduationCap, Users, Award, Target, Clock, BookOpen } from "lucide-react"
+import Link from "next/link"
 
 export default function AboutKautilyaPage() {
   // Animation variants
@@ -56,21 +57,16 @@ export default function AboutKautilyaPage() {
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">Our Legacy of Excellence</h2>
                 <p className="text-muted-foreground mb-4">
-                  Named after the ancient Indian philosopher and royal advisor Chanakya (also known as Kautilya), our
-                  institution embodies his principles of strategic thinking, practical wisdom, and ethical leadership.
+                  This test-prep company was named after ‘Kautilya’ as this Kautilya (also called as ‘Chanakya’) is a great personality and polymath in our Indian History (300 BCE) and he is always greatly remembered as a man of intelligence, wisdom and strategies. Thus, this Kautilya Institution’ was founded by Sridhar and his wife- Radhika Reddy in 2008 in Tirupati and it has trained the largest number of students of over 25000 belonging to several parts of South India. Hundreds of students have achieved MBA admissions at IIMs and M.S. admissions in the foreign countries through the expert coaching of CAT (Common Admission Test) and GRE, IELTS, TOEFL and consultancy services at Kautilya. Very importantly, its students have been bagging A.P’s 1st rank of 99 + percentile scores in the CAT (Common Admission Test for MBA at IIMs/IITs) for the last 10 years and all these students belong to local colleges of S.V.Uni. campus, S.V.Agriculture college, SPMVV universities and other private degree colleges. Students with top academic background of IITs, NITs prefer this Kautilya for their coaching.
                 </p>
-                <p className="text-muted-foreground mb-4">
-                  Founded in 2005 by Dr. Rajesh Kumar, Kautilya Educational Consultancy has grown from a small coaching
-                  center to one of India&apos;s premier training institutes for competitive examinations and career
-                  development.
-                </p>
-                <p className="mb-6">
-                  Today, we stand as a beacon of educational excellence with over 15 centers across India, having guided
-                  more than 50,000 students toward successful careers in various fields.
-                </p>
+              
                 <div className="flex flex-wrap gap-4">
+                  <Link href="/courses" passHref>
                   <Button>Our Courses</Button>
+                  </Link>
+                   <Link href="/results" passHref>
                   <Button variant="outline">View Results</Button>
+                  </Link>
                 </div>
               </div>
               <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden">
@@ -95,11 +91,11 @@ export default function AboutKautilyaPage() {
                   <h2 className="text-2xl md:text-3xl font-bold">Our Mission</h2>
                 </div>
                 <p className="text-muted-foreground mb-4">
-                  To provide high-quality education and guidance that empowers students to realize their full potential
-                  and achieve their career goals through personalized mentoring, innovative teaching methodologies, and
-                  comprehensive study resources.
+                  We offer rigorous training for IBPS Bank and SSC (Staff Selection Commission) exams. Hence hundreds of the students from A.P and Telangana have achieved central government jobs in the banking and other central govt. departments over the decade. Besides this, many intermediate students also achieved law degree (B.A.-LLB) admissions through CLAT coaching (Common Law Admission Test for NLUs- National Law Universities like NALSAR, etc) at this institute. This institute has tie-ups with many universities and top engineering colleges for campus placements. And the A.P. government also had tied up with Kautilya for offering many training programmes for several competitive exams and skill development. In appreciation of the decade of excellence, the former chief minister of A.P. also honored the institute in 2016. In addition to the academic coaching, the institute also conducts workshops on the subjects and also on personality development. The experts of the industry and distinguished personalities of the several disciplines from Mumbai, Hyderabad, Bengaluru have conducted hundreds of events at Kautilya, Tirupati. Over 500 students across A.P take the off-line coaching at this institute every year for the above courses. Kautilya has emerged as one of the most reputed and trusted institutes in our South India with 16 years of its glorious service with excellence in the coaching industry.
+
+The institute attributes its enduring success in consistent high percentage of placements to top-notch and dedicated faculty from the industry with IIM and IIT backgrounds and the eminent founders with vast academic experience – Sridhar and A.Radhika Reddy, M.A., and its campus having state-of-the art infrastructure- spacious class rooms (fully air- conditioned) built in 7000 sqft area- 6 digital classrooms, computer lab with 40 computers, study hall, seminar hall etc. at M.R.Palli, Tirupati
                 </p>
-                <ul className="space-y-2">
+                {/* <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="mr-2 text-primary">•</span>
                     <span>Deliver excellence in education through continuous innovation</span>
@@ -112,21 +108,21 @@ export default function AboutKautilyaPage() {
                     <span className="mr-2 text-primary">•</span>
                     <span>Foster a supportive learning environment that encourages growth</span>
                   </li>
-                </ul>
+                </ul> */}
               </div>
               <div>
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mr-4">
                     <BookOpen className="h-6 w-6 text-primary" />
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold">Our Vision</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold">Our Operating Model</h2>
                 </div>
                 <p className="text-muted-foreground mb-4">
-                  To be recognized globally as a center of educational excellence that transforms students&apos; lives by
-                  equipping them with the knowledge, skills, and confidence needed to succeed in an increasingly
-                  competitive world.
+                  Kautilya offers internships to the undergraduates for the universities and other college institutions as part of National Education Policy-2020 in Andhra Pradesh. As this company has tie-ups with the Government of A.P. for skill upgradation training to the students, it also offers coaching to them. It has regular on-campus training to many university campuses – S.V.Univeristy, Sri Padmavathi Mahila University, Horticulture University, etc. And it also delivers guidance sessions to KVKs (Krishi Vignana Kendras, ICAR). And Kautilya mainly operates through Test-Prep- off-line and on-line training for several national and international entrance tests- GMAT, GRE, TOEFL, IELTS, CAT and exams of central government recruitments- SSC, IBPS, etc.
+
+This company has the faculty members and trainers who have a background of top B schools like IIMs, XLRI, MDI, etc. and it also regularly conducts free career awareness and personality development sessions to the students to motivate the youth for realizing their career goals and FDP and training sessions for the employees of the businesses/ organizations.
                 </p>
-                <ul className="space-y-2">
+                {/* <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="mr-2 text-primary">•</span>
                     <span>Become the most trusted name in educational consultancy</span>
@@ -139,7 +135,7 @@ export default function AboutKautilyaPage() {
                     <span className="mr-2 text-primary">•</span>
                     <span>Set new standards in educational methodologies and outcomes</span>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </motion.section>
